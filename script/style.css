@@ -1,0 +1,225 @@
+body {
+
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(214,202,177,0.8603816526610644) 100%, rgba(200,184,150,1) 100%);
+height: 950px;
+}
+
+table.grid {
+	margin: 70px 0px 0px 15px;
+  --position: absolute;
+  float: left;
+  --background-color: #004231;
+  --width: 900px;
+  --height: 900px;
+  --margin: 0 0 0 10px;
+  --text-align: center;
+  --border-collapse: collapse;
+  --border: 4px solid #000000;
+ border-radius: 13px 13px 13px 13px;
+-moz-border-radius: 13px 13px 13px 13px;
+-webkit-border-radius: 13px 13px 13px 13px;
+border: 5px double #360404;
+  --margin: 10px 0 0 0px;
+  cursor: crosshair;
+}
+
+table.grid td, table.grid tr, table.grid th {
+  --float: left;
+  --border: 0px solid #000000;
+  --padding: none;
+  --height: 100px;
+  --width: 100px;
+  --border: none;
+  border-collapse: collapse;
+
+  
+}
+
+.bar {
+  position: absolute;
+  width: 1835px;
+  height: 25px;
+  margin: 15px 0 0 15px;
+  border: 4px solid;
+  font-family:Trebuchet MS;
+  color: black;
+  float: left;
+  background: rgb(235,229,217);
+   border-radius: 13px 13px 13px 13px;
+-moz-border-radius: 13px 13px 13px 13px;
+-webkit-border-radius: 13px 13px 13px 13px;
+border: 5px double #360404;
+padding:5px 5px;
+font-size:14px;
+color: #360404;
+overflow: hidden;
+
+}
+
+
+.menu {
+  position: absolute;
+  width: 450px;
+  height: 790px;
+  margin: 70px 0 0 945px;
+  border: 4px solid;
+  font-family:Trebuchet MS;
+  color: black;
+  float: left;
+  background: rgb(235,229,217);
+   border-radius: 13px 13px 13px 13px;
+-moz-border-radius: 13px 13px 13px 13px;
+-webkit-border-radius: 13px 13px 13px 13px;
+border: 5px double #360404;
+padding:5px 5px;
+font-size:14px;
+color: #360404;
+}
+
+
+
+.menu .Costs {
+  position: absolute;
+  text-align: center;
+  width: 420px;
+  height: 150px;
+  margin: 5px 0 0 5px;
+  font-family:Trebuchet MS;
+  color: black;
+  float: left;
+  background: rgb(235,229,217);
+   border-radius: 13px 13px 13px 13px;
+-moz-border-radius: 13px 13px 13px 13px;
+-webkit-border-radius: 13px 13px 13px 13px;
+border: 4px double #360404;
+padding:15px 5px 5px 5px;
+font-size:14px;
+color: #360404;
+}
+
+
+
+.menu .ButtonContainer {
+  position: absolute;
+  text-align: center;
+  width: 420px;
+  height: 140px;
+  margin: 200px 5px 0 5px;
+  font-family:Trebuchet MS;
+  color: black;
+  float: left;
+  background: rgb(235,229,217);
+  border-radius: 13px 13px 13px 13px;
+-moz-border-radius: 13px 13px 13px 13px;
+-webkit-border-radius: 13px 13px 13px 13px;
+border: 4px double #360404;
+padding:5px 5px 5px 5px;
+font-size:14px;
+color: #360404;
+}
+
+.menu .Action {
+  position: absolute;
+    text-align: center;
+  width: 420px;
+  height: 100px;
+  margin: 375px 0 0 5px;
+  font-family:Trebuchet MS;
+  color: black;
+  float: left;
+  background: rgb(235,229,217);
+   border-radius: 13px 13px 13px 13px;
+-moz-border-radius: 13px 13px 13px 13px;
+-webkit-border-radius: 13px 13px 13px 13px;
+border: 4px double #360404;
+padding:5px 5px;
+font-size:14px;
+color: #360404;
+overflow: hidden;
+}
+
+.menu .ActionButtons {
+  position: absolute;
+  text-align: center;
+  width: 420px;
+  height: 100px;
+  margin: 495px 0 0 5px;
+  font-family:Trebuchet MS;
+  color: black;
+  float: left;
+  background: rgb(235,229,217);
+   border-radius: 13px 13px 13px 13px;
+-moz-border-radius: 13px 13px 13px 13px;
+-webkit-border-radius: 13px 13px 13px 13px;
+border: 4px double #360404;
+padding:5px 5px 5px 5px;
+font-size:14px;
+color: #360404;
+}
+
+
+
+
+
+
+.console {
+  position: absolute;
+  width: 400px;
+  height: 790px;
+  --height: 90%;
+  margin: 70px 0 0 1450px;
+  border: 4px solid;
+  font-family:Trebuchet MS;
+  color: black;
+  float: left;
+  background: rgb(235,229,217);
+   border-radius: 13px 13px 13px 13px;
+-moz-border-radius: 13px 13px 13px 13px;
+-webkit-border-radius: 13px 13px 13px 13px;
+border: 5px double #360404;
+padding:5px 5px;
+font-size:14px;
+color: #360404;
+  --overflow: hidden;
+  overflow: scroll;
+
+}
+
+
+.tile { 
+  display: block;
+}
+
+.icon {
+vertical-align: middle;
+padding-right: 5px;
+padding-left: 5px;
+}
+
+
+
+Button {
+	vertical-align: middle;
+	background-color:#f5f3eb;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #360404;
+	display:inline-block;
+	cursor:pointer;
+	color:#360404;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	padding:5px 5px;
+	text-decoration:none;
+	width: 100px;
+}
+Button:hover {
+	background-color:#f9faf9; 
+}
+Button:active {
+	position:relative;
+	top:1px;
+}
+
