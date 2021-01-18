@@ -12,6 +12,12 @@ Prerequisites:
 
 Installation:
 - Put all files in the wwwroot file or equivalent 
+- Create a folder and get images for for the images which make up the grid (can't upload the images here) 
+  images\village.png (player and AI village image)
+  images\forest1.png (forest 1 image, use multiple if wanted)
+  images\texture.png (plain grid image green if grass, beige if sand)
+  images\lake.png (lake 1 image, use multiple if wanted)
+  
 - Go to localhost/main.php and play the game
 
 
