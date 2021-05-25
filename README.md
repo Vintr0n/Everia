@@ -1,5 +1,5 @@
 # Everia
-# Everia is a turn based RTS (Real Time Strategy) browser based game
+# Everia is a turn based RTS browser based game
 # It uses JSON as a light-weight way to store data
 
 
@@ -32,7 +32,7 @@ Future developments
 - Convert JSON to csv on the fly each turn
 - Ability to take over cities and lose your cities
 - New game/reset game option (currently have to manually reset files)
-- Calverly capacity to take up more than that of swords/axes/archers
+- Cavalry capacity to take up more than that of swords/axes/archers
 - Generate spawn point at random
 - Generate new cities at random
 
